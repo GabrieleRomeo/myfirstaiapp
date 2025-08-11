@@ -117,7 +117,7 @@ activity_level = st.selectbox(
     index=1,
 )
 
-if st.button("GGenerate Plans"):
+if st.button("Generate Plans"):
     with st.spinner("Generation in progress..."):
         result = chain_consigli_alimentari_cot.invoke(
             {
